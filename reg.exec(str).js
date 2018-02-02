@@ -1,4 +1,4 @@
 let str = 'abcdabc'
-let execArr = /abc/g.exec(str)
+let execArr = /a/g.exec(str)
 
 console.log(execArr)
