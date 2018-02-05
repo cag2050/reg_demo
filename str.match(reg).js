@@ -3,7 +3,7 @@
 
 let str = 'abcabc';
 
-let matchArr = str.match(/[c]/)
+let matchArr = str.match(/c/)
 console.log('如果 regexp 没有标志 g，那么 match() 方法就只能在 stringObject 中执行一次匹配。它将返回一个数组，其中存放了与它找到的匹配文本有关的信息。该数组的第 0 个元素存放的是匹配文本，而其余的元素存放的是与正则表达式的子表达式匹配的文本。除了这些常规的数组元素之外，返回的数组还含有两个对象属性。index 属性声明的是匹配文本的起始字符在 stringObject 中的位置，input 属性声明的是对 stringObject 的引用。')
 console.log(matchArr)
 
